@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-30T10:00:56Z" name="testSuiteNew" finished-at="2020-11-30T10:01:25Z" duration-ms="28910">
+    <groups>
+    </groups>
+    <test started-at="2020-11-30T10:00:56Z" name="testSuiteNew" finished-at="2020-11-30T10:01:25Z" duration-ms="28910">
+      <class name="home_task33_main">
+        <test-method is-config="true" signature="before()[pri:0, instance:home_task33_main@20d3d15a]" started-at="2020-11-30T10:00:56Z" name="before" finished-at="2020-11-30T10:01:09Z" duration-ms="13092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testSelenide()[pri:0, instance:home_task33_main@20d3d15a]" started-at="2020-11-30T10:01:09Z" name="testSelenide" finished-at="2020-11-30T10:01:25Z" duration-ms="15772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelenide -->
+      </class> <!-- home_task33_main -->
+    </test> <!-- testSuiteNew -->
+  </suite> <!-- testSuiteNew -->
+</testng-results>
