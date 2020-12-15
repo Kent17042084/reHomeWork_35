@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import static com.codeborne.selenide.Selenide.*;
 
 public class home_task33_main {
+    private  String ParamFromJenkins = System.getenv("param1");
     /*
     Открыть https://rozetka.com.ua/
     Перейти в раздел «Компьютеры и ноутбуки»
@@ -56,6 +57,7 @@ public class home_task33_main {
         open("https://rozetka.com.ua");
     }
     @Test
+
     public void testSelenide() {
         new PcAndLaptopLogic().clickOnCategoryJS();
         new LaptopCategoryPageLogic().clickCategory();

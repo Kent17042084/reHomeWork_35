@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HomeTask_35" />
+        <module name="TestXMLMaven" />
       </profile>
     </annotationProcessing>
   </component>
